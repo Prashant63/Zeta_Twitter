@@ -2,6 +2,18 @@ body{
 	background-color: #f8f8f8;
 }
 
+.center{
+	margin: auto;
+}
+
+.left{
+	margin: auto auto auto 0;
+}
+
+.right{
+	margin: auto 0 auto auto;
+}
+
 .navbar-default{
 	background-color: #ffffff;
 }
@@ -33,6 +45,11 @@ ul.nav li a{
     margin: 15px;
 }
 
+.active{
+	margin-bottom: 0 !important;
+	border-bottom:2px solid #00aced;
+}
+
 .flex-container{
 	flex-direction: row;
 	display: -webkit-flex;
@@ -45,6 +62,10 @@ ul.nav li a{
 	text-align: center;
 }
 
+.flex-item span:first-child{
+	color:#999;
+}
+
 div.flex-item span:last-child{
 	display:block;
 	font-weight: 900;
@@ -52,7 +73,7 @@ div.flex-item span:last-child{
 
 .jumbotron{
 	padding:0 !important;
-	margin:0 !important;
+	margin:0 10% !important;
 	background-color: #ffffff;
 }
 
@@ -68,25 +89,34 @@ div.tweetSection{
     display: flex;
 }
 
-div.tweetSection div:first-child{
+div.tweetSection > div:first-child{
 	width:12%;
 }
 
-div.tweetSection div:last-child{
-	width:80%;
+div.tweetSection > div:last-child{
+	width:70%;
+}
+
+.tweet-panel{
+	flex-direction: column;
+	display: -webkit-flex;
+    display: flex;
+    margin: 1% 0;
 }
 
 .tweet-header{
 	flex-direction: row;
 	display: -webkit-flex;
     display: flex;
+    width: 100% !important;
 }
 
-.tweet-header-items span:first-child{
+div.tweet-header > span:first-child{
 	width: 50% !important;
 	text-align: left;
 }
-.tweet-header-items span:last-child{
+
+div.tweet-header > span:last-child{
 	width: 50% !important;
 	text-align: right;
 }
@@ -95,3 +125,17 @@ div.tweetSection div:last-child{
 	width:80px;
 	height:80px;
 }
+
+.tweet-options{
+	position: relative;
+}
+
+.tweet-options span:not(:first-child):not(:last-child){
+	margin:0 2%;
+}
+
+div.tweet-options > span:last-child{
+	position: absolute;
+	right:0;
+}
+

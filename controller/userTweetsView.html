@@ -1,6 +1,6 @@
 <div class="tweetSection" ng-repeat="tweet in tweets">
 	<div class="sectionItem"><img src="{{tweet.userImage}}" class="userImage img-circle"></div>
-	<div>
+	<div class="tweet-panel">
 		<div class="tweet-header">
 			<span class="tweet-header-items">{{tweet.name}} @{{tweet.userName}}</span>
 			<span class="tweet-header-items">{{tweet.tweetTime}}</span>
@@ -8,7 +8,7 @@
 		<div>
 			<span>{{tweet.tweet}}</span>
 		</div>
-		<div>
+		<div class="tweet-options">
 			<span><i class="fa fa-share" aria-hidden="true"></i></span>
 			<span><i class="fa fa-star" aria-hidden="true"></i></span>
 			<span><i class="fa fa-refresh" aria-hidden="true"></i></span>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Zeta-Twitter Page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/twitter.css">
+		<script src="script/angular.min.js"></script>
+		<script src="script/app.js"></script>
+		<script src="service/tweeterService.js"></script>
+		<script src="controller/twitterController.js"></script>
+		<script src="controller/userTweets.js"></script>
+	</head>
+	<body ng-app="app">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">ZETA</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a><i class="fa fa-bell-o"></i></a></li>
+					<li><a><i class="fa fa-envelope"></i></a></li>
+					<li><a><i class="fa fa-hashtag"></i></a></li>
+				</ul>
+
+				<ul class="nav navbar-nav">
+					<li><a><i class="fa fa-twitter"></i></a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a><i class="fa fa-search"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container" ng-controller="twitterController">
+			<div class="flex-container jumbotron">
+				<div class="flex-item"><span>TWEETS</span><span>100</span></div>
+				<div class="flex-item"><span>PHOTO/VIDEO</span><span>200</span></div>
+				<div class="flex-item"><span>FOLLOWING</span><span>100</span></div>
+				<div class="flex-item"><span>FOLLOWERS</span><span>300</span></div>
+			</div>
+
+			<div class="flex-container-body jumbotron">
+				<user-tweets tweets="userTweets"></user-tweets>
+			</div>
+		</div>
+	</body>
+</html>

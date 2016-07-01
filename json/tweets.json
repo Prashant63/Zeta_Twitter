@@ -1,0 +1,41 @@
+[{
+	"userImage": "images/IMG_1839.jpg",
+	"name" : "Prashant",
+	"userName": "k_Kprashant63",
+	"tweet": "Soya Chunk",
+	"tweetTime": "06/16",
+	"retweetNumber" : "20",
+	"likes":"36"
+},{
+	"userImage": "images/PZV6gErH.jpeg",
+	"name" : "Jen Looper",
+	"userName": "jenlooper",
+	"tweet": "A new NativeScript Snack: Getting Started with NativeScript and Firebase ",
+	"tweetTime": "06/16",
+	"retweetNumber" : "20",
+	"likes":"36"
+},{
+	"userImage": "images/IYsCFa6N.jpg",
+	"name" : "Todd Motto",
+	"userName": "toddmotto",
+	"tweet": "A comment on our Telerik article':' I agree it has a bit of learning curve ',' but hey smooth oceans don't make for good sailers. I love that.",
+	"tweetTime": "06/16",
+	"retweetNumber" : "20",
+	"likes":"36"
+},{
+	"userImage": "images/7a2730fc6fd826ace7f1ce9bcabee05b.jpeg",
+	"name" : "Andrea Giammarchi",
+	"userName": "andrea_giammarchi",
+	"tweet": "How to write a popular tweet vol.2016':'blah blah blah blah blah blah Progressive Web App blah blah blah blah",
+	"tweetTime": "06/16",
+	"retweetNumber" : "20",
+	"likes":"36"
+},{
+	"userImage": "images/9qXSC-X9.png",
+	"name" : "Tony Robbins",
+	"userName": "TonyRobbins",
+	"tweet": "Good morning Dallas,Texas! Welcome to Unleash the Power Within'!' Tweet me your UPW stories & why you're attending - using ",
+	"tweetTime": "06/16",
+	"retweetNumber" : "20",
+	"likes":"36"
+}]

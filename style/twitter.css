@@ -1,0 +1,97 @@
+body{
+	background-color: #f8f8f8;
+}
+
+.navbar-default{
+	background-color: #ffffff;
+}
+
+div.navbar-header{
+	border-right:1px solid #e7e7e7;
+}
+
+ul:nth-child(3){
+	margin:0 29%;
+	color:#00aced;
+}
+
+ul:nth-child(3) li a{
+	border:none !important;
+	color:#00aced !important;
+	padding:15px !important;
+	margin:0 !important;
+}
+
+ul:nth-child(3) li a i.fa{
+	font-size: 35px;
+}
+
+ul.nav li a{
+	border: 1px solid #e7e7e7;
+    border-radius: 40px;
+    padding: 4px 7px;
+    margin: 15px;
+}
+
+.flex-container{
+	flex-direction: row;
+	display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item{
+	width:25%;
+	margin:10px;
+	text-align: center;
+}
+
+div.flex-item span:last-child{
+	display:block;
+	font-weight: 900;
+}
+
+.jumbotron{
+	padding:0 !important;
+	margin:0 !important;
+	background-color: #ffffff;
+}
+
+.flex-container-body{
+	flex-direction: column;
+	margin-top:4% !important;
+}
+
+div.tweetSection{
+	padding:3%;
+	flex-direction: row;
+	display: -webkit-flex;
+    display: flex;
+}
+
+div.tweetSection div:first-child{
+	width:12%;
+}
+
+div.tweetSection div:last-child{
+	width:80%;
+}
+
+.tweet-header{
+	flex-direction: row;
+	display: -webkit-flex;
+    display: flex;
+}
+
+.tweet-header-items span:first-child{
+	width: 50% !important;
+	text-align: left;
+}
+.tweet-header-items span:last-child{
+	width: 50% !important;
+	text-align: right;
+}
+
+.userImage{
+	width:80px;
+	height:80px;
+}
